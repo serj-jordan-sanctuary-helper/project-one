@@ -1,2 +1,14 @@
 @import 'setup';
 @import 'variable';
+
+
+header {
+     background-size: cover;
+     background-position: center;
+     background-image: url(./assets/header-home.jpg);
+}
+
+h1 {
+     font-family: ‘Kumar One’, cursive;
+     font-size: 6.4rem;
+}

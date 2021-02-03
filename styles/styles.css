@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -233,4 +234,15 @@ html {
           clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+header {
+  background-size: cover;
+  background-position: center;
+  background-image: url(./assets/header-home.jpg);
+}
+
+h1 {
+  font-family: ‘Kumar One’, cursive;
+  font-size: 6.4rem;
 }
