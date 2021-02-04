@@ -1,15 +1,36 @@
 @import 'setup';
 @import 'variable';
+@import 'mixins';
 
+* {
+     padding: 0;
+     margin: 0;
+}
+
+html {
+     font-size: 62.5%;
+}
+
+.wrapper {
+     max-width: 1400px;
+     width: 90%;
+     margin: 0 auto;
+}
+
+@import 'navigation';
 
 header {
+     @include headerImage;
      background-size: cover;
      background-position: center;
-     background-image: url(./assets/header-home.jpg);
+     min-height: 100vh;
 }
 
 h1 {
-     font-family: ‘Kumar One’, cursive;
+     font-family: $kumarOneOutline;
      font-size: 6.4rem;
-     color: white;
+     color: $black;
+     width: 50%;
+     padding-left: 10vh;
+     text-transform: uppercase;
 }
