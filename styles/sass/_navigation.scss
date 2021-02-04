@@ -1,13 +1,19 @@
+nav.blogNav,
+nav.clontactNav {
+     display: flex;
+     justify-content: space-between;
+}
+
 nav {
      ul {
           display: flex;
-          justify-content: end;
+          justify-content: flex-end;
           padding: 25px 0;
 
           li {
                font-size: 2rem;
                padding: 20px;
-               margin: 0 15px;
+               margin: 0 10px;
                
                text-transform: uppercase;
                list-style: none;
@@ -18,7 +24,7 @@ nav {
                     text-decoration: none;
                     
                     &:hover, &:focus {
-                    border-bottom: 3px solid $brightYellow;
+                    border-bottom: 5px solid $brightYellow;
                     }
                }
           }

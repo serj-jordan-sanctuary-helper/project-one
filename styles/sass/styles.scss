@@ -20,17 +20,38 @@ html {
 @import 'navigation';
 
 header {
-     @include headerImage;
      background-size: cover;
      background-position: center;
+}
+
+.indexHeader {
+     @include headerImage;
      min-height: 100vh;
+}
+
+.blogHeader {
+     @include blogHeaderImage;
+     min-height: 60vh;
 }
 
 h1 {
      font-family: $kumarOneOutline;
-     font-size: 6.4rem;
+     font-size: 6.8rem;
+     line-height: 64px;
      color: $black;
      width: 50%;
+     padding-left: 10vh;
+     text-transform: uppercase;
+}
+
+h2.logo {
+     font-family: $kumarOne;
+     font-size: 2.2rem;
+     line-height: 24px;
+     letter-spacing: 2.1px;
+     color: $black;
+     width: 20%;
+     padding-top: 35px;
      padding-left: 10vh;
      text-transform: uppercase;
 }

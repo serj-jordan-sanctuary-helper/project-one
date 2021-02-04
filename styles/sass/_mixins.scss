@@ -1,3 +1,7 @@
 @mixin headerImage {
      background-image: url(../assets/header-home.jpg);
 }
+
+@mixin blogHeaderImage {
+     background-image: url(../assets/blog-image.jpg);
+}
