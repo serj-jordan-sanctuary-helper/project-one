@@ -251,7 +251,7 @@ html {
 }
 
 nav.blogNav,
-nav.clontactNav {
+nav.contactNav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
