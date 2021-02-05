@@ -8,4 +8,7 @@
 
 @mixin contactHeaderImage {
      background-image: url(../assets/contact-image.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     min-height: 80vh
 }

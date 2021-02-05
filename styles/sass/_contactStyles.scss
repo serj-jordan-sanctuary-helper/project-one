@@ -1,0 +1,27 @@
+.contactHeader h1{
+     margin-top: 150px;
+}
+main{
+     background-color: $ice;
+}
+
+form{
+     background-color: $white;
+     height: 400px;
+     width: 700px;
+}
+
+.contactInfo{
+     display: flex;
+     justify-content: space-between;
+}
+
+.icons{
+     font-size: 2rem;
+     width: 20%;
+}
+
+.icons p{
+     font-family: $lato;
+     font-size: 2rem;
+}

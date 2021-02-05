@@ -245,7 +245,6 @@ html {
 }
 
 .wrapper {
-  max-width: 1400px;
   width: 90%;
   margin: 0 auto;
 }
@@ -267,11 +266,11 @@ nav ul {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  padding: 25px 0;
+  padding: 8px 0px 25px;
 }
 
 nav ul li {
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 20px;
   margin: 0 10px;
   text-transform: uppercase;
@@ -306,6 +305,9 @@ header {
 
 .contactHeader {
   background-image: url(../assets/contact-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 80vh;
   min-height: 85vh;
 }
 
@@ -314,7 +316,7 @@ h1 {
   font-size: 6.8rem;
   line-height: 64px;
   color: #151514;
-  width: 50%;
+  width: 55%;
   padding-left: 10vh;
   text-transform: uppercase;
 }
@@ -326,7 +328,40 @@ h2.logo {
   letter-spacing: 2.1px;
   color: #151514;
   width: 20%;
-  padding-top: 35px;
+  padding-top: 15px;
   padding-left: 10vh;
   text-transform: uppercase;
+}
+
+.contactHeader h1 {
+  margin-top: 150px;
+}
+
+main {
+  background-color: #E0FDDF;
+}
+
+form {
+  background-color: #F5F5F5;
+  height: 400px;
+  width: 700px;
+}
+
+.contactInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.icons {
+  font-size: 2rem;
+  width: 20%;
+}
+
+.icons p {
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
 }
