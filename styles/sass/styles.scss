@@ -34,6 +34,11 @@ header {
      min-height: 60vh;
 }
 
+.contactHeader {
+     @include contactHeaderImage;
+     min-height: 85vh;
+}
+
 h1 {
      font-family: $kumarOneOutline;
      font-size: 6.8rem;

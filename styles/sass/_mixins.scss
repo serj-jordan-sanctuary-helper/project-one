@@ -5,3 +5,7 @@
 @mixin blogHeaderImage {
      background-image: url(../assets/blog-image.jpg);
 }
+
+@mixin contactHeaderImage {
+     background-image: url(../assets/contact-image.jpg);
+}

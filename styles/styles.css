@@ -303,6 +303,11 @@ header {
   min-height: 60vh;
 }
 
+.contactHeader {
+  background-image: url(../assets/contact-image.jpg);
+  min-height: 85vh;
+}
+
 h1 {
   font-family: "Kumar One Outline", cursive;
   font-size: 6.8rem;
