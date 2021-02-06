@@ -1,0 +1,52 @@
+main {
+     background-color: $ice;
+}
+
+h3 {
+     font-family: $kumarOne;
+     font-size: 3.3rem;
+     line-height: 58px;
+     letter-spacing: 2.1px;
+     text-transform: uppercase;
+}
+
+p {
+     font-family: $lato;
+     font-size: 2rem;
+     line-height: 32px;
+     letter-spacing: 2px;
+}
+
+.blogText {
+     margin: 20px 0;
+}
+
+img {
+     width: 100%;
+}
+
+.mainBlog,
+.comments {
+     width: 60%;
+}
+
+.sideNotes {
+     width: 25%;
+}
+
+.blogContainer {
+     display: flex;
+     justify-content: space-between;
+}
+
+.commentContainer {
+     display: flex;
+     justify-content: space-evenly;
+     padding-bottom: 25px;
+}
+
+.commentImg {
+     width: 50%;
+     margin: 10px 30px 30px 0;
+}
+
