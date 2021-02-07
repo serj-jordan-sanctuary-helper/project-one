@@ -459,7 +459,8 @@ footer p {
   text-align: center;
   padding: 5px 0px 5px;
   letter-spacing: 2px;
-=======
+}
+
 main {
   background-color: #E0FDDF;
 }
@@ -518,5 +519,4 @@ img {
 .commentImg {
   width: 50%;
   margin: 10px 30px 30px 0;
->>>>>>> blog
 }
