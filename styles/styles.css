@@ -382,7 +382,7 @@ input[type=text], input[type=email] {
   text-transform: uppercase;
   font-family: "Lato", sans-serif;
   width: calc(80%/2);
-  padding: 0px 20px 30px;
+  padding: 0px 20px 20px;
   margin-top: 60px;
   letter-spacing: 3px;
 }
