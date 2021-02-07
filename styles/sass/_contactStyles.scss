@@ -1,86 +1,107 @@
 .contactHeader h1{
-     margin-top: 150px;
-     width: auto;
+     margin-top: 60px;
+     font-size: 6rem;
+     font-weight: lighter;
 }
 main{
      background-color: $ice;
-     height: 90%;
+     height: auto;
 }
-
-form{
-     position:relative;
-     bottom: 170px;
-     background-color: $white;
-     height: 500px;
-     width: 800px;
-     border: 1px solid red;
-     box-shadow: 15px 20px;
-     color: $brightYellow;
-}
-
-.nameEmail{
-     display:flex;
-     justify-content: space-between;
-}
-
-input[type=text]{
-     border: none; 
-     border-bottom: 1px solid black;
-     background-color:$white;
-     height: 10%;
-     font-size: 1.5rem;
-     text-transform: uppercase;
-     font-family: $lato;
-     padding: 0px 20px 20px;
-}
-
-input[type=email]{
-     border: none; 
-     border-bottom: 1px solid black;
-     background-color:$white;
-     height: 10%;
-     font-size: 1.5rem;
-     text-transform: uppercase;
-     font-family: $lato;
-     padding: 0px 20px 20px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .contactInfo{
      display: flex;
      justify-content: space-between;
+}
+
+form{
+     position:relative;
+     bottom: 120px;
+     background-color: white;
+     min-height: 525px;
+     width: 725px;
+     box-shadow: 15px 20px;
+     color: $brightYellow;
+}
+
+
+.nameEmail{
+     display: flex;
+     justify-content: center;
+}
+
+input[type=text],input[type=email]{
+     border: none; 
+     border-bottom: 2px solid $everGreen;
+     color: black;
+     background-color:white;
+     height: 10%;
+     font-size: 1.5rem;
+     text-transform: uppercase;
+     font-family: $lato;
+     width: calc(80%/2);
+     padding: 0px 20px 30px;
+     margin-top: 60px;
+     letter-spacing: 3px;
+}
+
+
+input[type=email]{
+     margin-left: 10px;
+}
+
+.messageSubmit{
+     display:flex;
+     flex-direction: column;
+     margin: 0 9% 0;
+}
+
+textarea{
+     margin-top: 50px;
+     padding: 30px 20px 0px;
+     outline: none;
+     border: 2px solid $everGreen;
+     resize: none;
+     width: auto; 
+     min-height: 200px;
+     font-family:$lato;
+     font-size: 1.5rem;
+     text-transform: uppercase;
+     letter-spacing: 3px;
 
 }
 
+button{
+     font-size: 2rem;
+     font-family: $kumarOne;
+     color:white;
+     width: 100%;
+     margin-top: 50px;
+     padding: 10px 0 5px;
+     background-color: $everGreen;
+     border: none;
+}
+
 .contactDes{
-     font-size: 1.5rem;
-     letter-spacing: 7px;
      width: 23%;
-     padding-top:70px;
+     padding-top: 140px;
+     margin-right: 40px;
+}
+
+.contactDes i{
+     font-size: 2.3rem;
+     color: $everGreen;
+     letter-spacing: 10px;
 }
 
 .contactDes p{
      font-family: $lato;
-     font-size: 1.3rem;
-     line-height: 17px;
+     font-size: 1.5rem;
+     line-height: 22px;
      letter-spacing: 4px;
 }
 
 .contactDes p:first-of-type{
-     padding: 10px 0px 20px;
+     padding: 15px 0px 20px;
      letter-spacing: 2px;
 }
 
