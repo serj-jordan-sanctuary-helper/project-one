@@ -333,7 +333,6 @@ h2.logo {
   text-transform: uppercase;
 }
 
-<<<<<<< HEAD
 .contactHeader h1 {
   margin-top: 60px;
   font-size: 6rem;
@@ -459,7 +458,8 @@ footer p {
   text-align: center;
   padding: 5px 0px 5px;
   letter-spacing: 2px;
-=======
+}
+
 main {
   background-color: #E0FDDF;
 }
@@ -518,5 +518,7 @@ img {
 .commentImg {
   width: 50%;
   margin: 10px 30px 30px 0;
->>>>>>> blog
+  -webkit-box-shadow: 15px 20px;
+          box-shadow: 15px 20px;
+  color: #F8FB05;
 }
