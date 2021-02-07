@@ -333,11 +333,11 @@ h2.logo {
   text-transform: uppercase;
 }
 
-<<<<<<< HEAD
 .contactHeader h1 {
   margin-top: 60px;
   font-size: 6rem;
   font-weight: lighter;
+  width: auto;
 }
 
 main {
