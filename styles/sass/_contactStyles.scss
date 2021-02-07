@@ -14,72 +14,15 @@ main{
      justify-content: space-around;
 }
 
-form{
-     position:relative;
-     bottom: 120px;
+fieldset{
      background-color: white;
-     min-height: 525px;
-     width: 725px;
      box-shadow: 15px 20px;
      color: $brightYellow;
 }
 
-
-.nameEmail{
-     display: flex;
-     justify-content: center;
-}
-
 input[type=text],input[type=email]{
-     border: none; 
-     border-bottom: 2px solid $everGreen;
-     color: black;
      background-color:white;
-     height: 10%;
-     font-size: 1.5rem;
-     text-transform: uppercase;
-     font-family: $lato;
-     width: calc(80%/2);
-     padding: 0px 20px 20px;
-     margin-top: 60px;
-     letter-spacing: 3px;
-}
 
-
-input[type=email]{
-     margin-left: 10px;
-}
-
-.messageSubmit{
-     display:flex;
-     flex-direction: column;
-     margin: 0 9% 0;
-}
-
-textarea{
-     margin-top: 50px;
-     padding: 30px 20px 0px;
-     outline: none;
-     border: 2px solid $everGreen;
-     resize: none;
-     width: auto; 
-     min-height: 200px;
-     font-family:$lato;
-     font-size: 1.5rem;
-     text-transform: uppercase;
-     letter-spacing: 3px;
-
-}
-
-button{
-     font-size: 2rem;
-     font-family: $kumarOne;
-     color:white;
-     width: 100%;
-     margin-top: 50px;
-     padding: 10px 0 5px;
-     background-color: $everGreen;
-     border: none;
 }
 
 .contactDes{
@@ -104,5 +47,7 @@ button{
      padding: 15px 0px 20px;
      letter-spacing: 2px;
 }
+
+@import 'form';
 
 @import 'footer';
