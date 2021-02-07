@@ -1,3 +1,4 @@
+
 .contactHeader h1{
      margin-top: 60px;
      font-size: 6rem;
@@ -14,15 +15,11 @@ main{
      justify-content: space-around;
 }
 
+
 fieldset{
      background-color: white;
      box-shadow: 15px 20px;
      color: $brightYellow;
-}
-
-input[type=text],input[type=email]{
-     background-color:white;
-
 }
 
 .contactDes{
@@ -48,6 +45,5 @@ input[type=text],input[type=email]{
      letter-spacing: 2px;
 }
 
-@import 'form';
 
 @import 'footer';
