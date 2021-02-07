@@ -10,7 +10,7 @@ main{
 
 .contactInfo{
      display: flex;
-     justify-content: space-between;
+     justify-content: space-around;
 }
 
 form{
@@ -84,7 +84,6 @@ button{
 .contactDes{
      width: 23%;
      padding-top: 140px;
-     margin-right: 40px;
 }
 
 .contactDes i{
