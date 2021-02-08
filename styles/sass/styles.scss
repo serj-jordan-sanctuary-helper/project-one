@@ -78,29 +78,44 @@ h3{
   margin-top: 25vh;
 }
 
+.blueCouchContainer {
+  position: relative;
+  width: 55%;
+}
+
 .blueCouch{
-  width: 60%;
-  height: auto;
   position: absolute;
-  top: 45%;
-  right: 45%;
+  bottom: 65px;
 }
 
 .discoverContainer{
   display: flex;
-  height: 40vh;
   justify-content: space-between;
+  margin-bottom: 80px;
 }
 
 .discoverTxtContainer{
-  width: 60%;
+  width: 65%;
+  padding-right: 100px;
+    h3 {
+      margin-bottom: 25px;
+    }
+}
+
+.greyCouch {
+  width: 30%;
+    img {
+      box-shadow: -15px 15px 3px $brightYellow;
+    }
 }
 
 .buttonOne{
     font-size: 2rem;
     font-family: $kumarOne;
-    padding: 10px 20px 5px;
+    padding: 18px 30px;
+    margin: 20px 0;
     background-color: $everGreen;
+    text-transform: uppercase;
     border: none;
 }
 
@@ -110,9 +125,5 @@ button a{
 
 }
 
-.greyCouch img{
-    box-shadow: -15px -20px;
-    color: $brightYellow;
-}
 
 
