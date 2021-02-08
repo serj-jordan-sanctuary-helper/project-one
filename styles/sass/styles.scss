@@ -125,5 +125,39 @@ button a{
 
 }
 
+.indexGallery{
+  background-color: $ice;
+}
 
+.threeImgContainer {
+  display:flex;
+  justify-content: space-around;
+  padding: 70px 0px;
+  img{
+    width: calc(100%/3);
+    height: auto;
+    margin: 0px 30px;
+  }
+}
 
+.aboutSection{
+  background-color: white;
+  margin: 70px 0px;
+  ul{
+    display:flex;
+    flex-wrap: wrap;
+    li{
+      width:50%;
+      list-style: none;
+    }
+  }
+}
+
+.groupProgramsContainer ,.newLocationsContainer{
+  display:flex;
+  justify-content:space-between;
+  img{
+    width: 50%;
+    height:auto;
+  }
+}
