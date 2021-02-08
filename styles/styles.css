@@ -267,7 +267,7 @@ nav ul {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  padding: 8px 0px 25px;
+  padding: 15px 0px;
 }
 
 nav ul li {
@@ -328,7 +328,7 @@ h2.logo {
   letter-spacing: 2.1px;
   color: #151514;
   width: 20%;
-  padding-top: 15px;
+  padding-top: 25px;
   text-transform: uppercase;
 }
 
@@ -657,6 +657,10 @@ textarea {
 input.blogInput,
 input.blogEmail {
   width: 50%;
+}
+
+.commentTxt p:first-child {
+  text-transform: uppercase;
 }
 
 footer {

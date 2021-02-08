@@ -2,16 +2,16 @@
 @import "variable";
 @import "mixins";
 
-* {
+*{
   padding: 0;
   margin: 0;
 }
 
-html {
+html{
   font-size: 62.5%;
 }
 
-.wrapper {
+.wrapper{
   max-width: 1600px;
   width: 80%;
   margin: 0 auto;
@@ -19,26 +19,26 @@ html {
 
 @import "navigation";
 
-header {
+header{
   background-size: cover;
   background-position: center;
 }
 
-.indexHeader {
+.indexHeader{
   @include headerImage;
   min-height: 100vh;
 }
 
-.blogHeader {
+.blogHeader{
   @include blogHeaderImage;
   min-height: 60vh;
 }
 
-.contactHeader {
+.contactHeader{
   @include contactHeaderImage;
 }
 
-h1 {
+h1{
   font-family: $kumarOneOutline;
   font-size: 6.8rem;
   line-height: 64px;
@@ -47,18 +47,18 @@ h1 {
   text-transform: uppercase;
 }
 
-h2.logo {
+h2.logo{
   font-family: $kumarOne;
   font-size: 2.2rem;
   line-height: 24px;
   letter-spacing: 2.1px;
   color: $black;
   width: 20%;
-  padding-top: 15px;
+  padding-top: 25px;
   text-transform: uppercase;
 }
 
-h3 {
+h3{
   font-family: $kumarOne;
   font-size: 3.3rem;
   line-height: 58px;
@@ -74,11 +74,11 @@ h3 {
 
 @import "footer";
 
-.mainDiscoverContainer {
+.mainDiscoverContainer{
   margin-top: 25vh;
 }
 
-.blueCouch {
+.blueCouch{
   width: 60%;
   height: auto;
   position: absolute;
@@ -86,33 +86,33 @@ h3 {
   right: 45%;
 }
 
-.discoverContainer {
+.discoverContainer{
   display: flex;
   height: 40vh;
   justify-content: space-between;
 }
 
-.discoverTxtContainer {
+.discoverTxtContainer{
   width: 60%;
 }
 
 .buttonOne{
-     font-size: 2rem;
-     font-family: $kumarOne;
-     padding: 10px 20px 5px;
-     background-color: $everGreen;
-     border: none;
+    font-size: 2rem;
+    font-family: $kumarOne;
+    padding: 10px 20px 5px;
+    background-color: $everGreen;
+    border: none;
 }
 
 button a{
-     color:white;
-     text-decoration: none;
+    color:white;
+    text-decoration: none;
 
 }
 
 .greyCouch img{
-     box-shadow: -15px -20px;
-     color: $brightYellow;
+    box-shadow: -15px -20px;
+    color: $brightYellow;
 }
 
 
