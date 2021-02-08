@@ -2,20 +2,12 @@ main {
      background-color: $ice;
 }
 
-h3 {
-     font-family: $kumarOne;
-     font-size: 3.3rem;
-     line-height: 58px;
-     letter-spacing: 2.1px;
-     text-transform: uppercase;
-}
-
 h3.rightPrice {
      width: 70%;
 }
 
 .comments h3 {
-     margin: 50px 0;
+     margin-bottom: 20px;
 }
 
 p {
@@ -32,7 +24,6 @@ p {
 }
 
 .mainImageContainer img {
-     // z-index: 1;
      box-shadow: 15px 20px 3px $brightYellow;
 }
 
@@ -90,4 +81,17 @@ img {
 
 .blogFieldset {
      width: 100%;
+}
+
+.blogMsgSubmit {
+     margin: 0;
+}
+
+.blogContactEmail {
+     justify-content: start;
+}
+
+input.blogInput,
+input.blogEmail {
+     width: 50%;
 }

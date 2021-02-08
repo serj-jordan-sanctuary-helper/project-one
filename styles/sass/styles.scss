@@ -12,7 +12,8 @@ html {
 }
 
 .wrapper {
-  width: 90%;
+  max-width: 1600px;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -43,7 +44,6 @@ h1 {
   line-height: 64px;
   color: $black;
   width: 55%;
-  padding-left: 10vh;
   text-transform: uppercase;
 }
 
@@ -55,14 +55,24 @@ h2.logo {
   color: $black;
   width: 20%;
   padding-top: 15px;
-  padding-left: 10vh;
   text-transform: uppercase;
 }
+
+h3 {
+  font-family: $kumarOne;
+  font-size: 3.3rem;
+  line-height: 58px;
+  letter-spacing: 2.1px;
+  text-transform: uppercase;
+}
+
 @import "form";
 
 @import "contactStyles";
 
 @import "blogStyles";
+
+@import "footer";
 
 .mainDiscoverContainer {
   margin-top: 25vh;
