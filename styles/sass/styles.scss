@@ -1,94 +1,108 @@
-@import 'setup';
-@import 'variable';
-@import 'mixins';
+@import "setup";
+@import "variable";
+@import "mixins";
 
 * {
-     padding: 0;
-     margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 html {
-     font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 .wrapper {
-     width: 90%;
-     margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
 }
 
-@import 'navigation';
+@import "navigation";
 
 header {
-     background-size: cover;
-     background-position: center;
+  background-size: cover;
+  background-position: center;
 }
 
 .indexHeader {
-     @include headerImage;
-     min-height: 100vh;
+  @include headerImage;
+  min-height: 100vh;
 }
 
 .blogHeader {
-     @include blogHeaderImage;
-     min-height: 60vh;
+  @include blogHeaderImage;
+  min-height: 60vh;
 }
 
 .contactHeader {
-     @include contactHeaderImage;
+  @include contactHeaderImage;
 }
 
 h1 {
-     font-family: $kumarOneOutline;
-     font-size: 6.8rem;
-     line-height: 64px;
-     color: $black;
-     width: 55%;
-     padding-left: 10vh;
-     text-transform: uppercase;
+  font-family: $kumarOneOutline;
+  font-size: 6.8rem;
+  line-height: 64px;
+  color: $black;
+  width: 55%;
+  padding-left: 10vh;
+  text-transform: uppercase;
 }
 
 h2.logo {
-     font-family: $kumarOne;
-     font-size: 2.2rem;
-     line-height: 24px;
-     letter-spacing: 2.1px;
-     color: $black;
-     width: 20%;
-     padding-top: 15px;
-     padding-left: 10vh;
-     text-transform: uppercase;
+  font-family: $kumarOne;
+  font-size: 2.2rem;
+  line-height: 24px;
+  letter-spacing: 2.1px;
+  color: $black;
+  width: 20%;
+  padding-top: 15px;
+  padding-left: 10vh;
+  text-transform: uppercase;
 }
-@import 'form';
+@import "form";
 
-@import 'contactStyles';
+@import "contactStyles";
 
-@import 'blogStyles';
+@import "blogStyles";
 
 .mainDiscoverContainer {
-     position: relative;
+  margin-top: 25vh;
 }
 
-.indexDiscover {
-     display: flex;
-
-}
-
-img.blueCouch {
-     position: absolute;
-     width: 56%;
-     bottom: 185px;
+.blueCouch {
+  width: 60%;
+  height: auto;
+  position: absolute;
+  top: 45%;
+  right: 45%;
 }
 
 .discoverContainer {
-     display: flex;
-     height: 40vh;
-     justify-content: space-between;
-}
-
-.discoverTxtContainer h3 {
-     margin: 250px 0;
+  display: flex;
+  height: 40vh;
+  justify-content: space-between;
 }
 
 .discoverTxtContainer {
-     // width: 50%;
+  width: 60%;
 }
+
+.buttonOne{
+     font-size: 2rem;
+     font-family: $kumarOne;
+     padding: 10px 20px 5px;
+     background-color: $everGreen;
+     border: none;
+}
+
+button a{
+     color:white;
+     text-decoration: none;
+
+}
+
+.greyCouch img{
+     box-shadow: -15px -20px;
+     color: $brightYellow;
+}
+
+
