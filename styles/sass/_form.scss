@@ -1,9 +1,12 @@
 fieldset{
-     position:relative;
-     bottom: 120px;
      min-height: 525px;
      width: 725px;
      border:none;
+}
+
+.contactInfo{
+     display: flex;
+     justify-content: space-around;
 }
 
 

@@ -10,13 +10,12 @@ main{
      height: auto;
 }
 
-.contactInfo{
-     display: flex;
-     justify-content: space-around;
-}
 
 
-fieldset{
+
+fieldset.contactFieldset{
+     position:relative;
+     bottom: 120px;
      background-color: white;
      box-shadow: 15px 20px;
      color: $brightYellow;

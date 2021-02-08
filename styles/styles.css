@@ -334,11 +334,17 @@ h2.logo {
 }
 
 fieldset {
-  position: relative;
-  bottom: 120px;
   min-height: 525px;
   width: 725px;
   border: none;
+}
+
+.contactInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .contactEmail {
@@ -418,15 +424,9 @@ main {
   height: auto;
 }
 
-.contactInfo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-fieldset {
+fieldset.contactFieldset {
+  position: relative;
+  bottom: 120px;
   background-color: white;
   -webkit-box-shadow: 15px 20px;
           box-shadow: 15px 20px;
@@ -527,11 +527,17 @@ img {
 }
 
 fieldset {
-  position: relative;
-  bottom: 120px;
   min-height: 525px;
   width: 725px;
   border: none;
+}
+
+.contactInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .contactEmail {
