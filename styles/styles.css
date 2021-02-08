@@ -478,11 +478,31 @@ h3 {
   text-transform: uppercase;
 }
 
+h3.rightPrice {
+  width: 70%;
+}
+
+.comments h3 {
+  margin: 50px 0;
+}
+
 p {
   font-family: "Lato", sans-serif;
   font-size: 2rem;
   line-height: 32px;
   letter-spacing: 2px;
+}
+
+.mainTextContainer {
+  background-color: white;
+  padding: 50px 80px;
+  -webkit-box-shadow: 15px 15px 3px #F8FB05;
+          box-shadow: 15px 15px 3px #F8FB05;
+}
+
+.mainImageContainer img {
+  -webkit-box-shadow: 15px 20px 3px #F8FB05;
+          box-shadow: 15px 20px 3px #F8FB05;
 }
 
 .blogText {
@@ -493,13 +513,32 @@ img {
   width: 100%;
 }
 
+.mainBlog {
+  position: relative;
+  bottom: 145px;
+}
+
 .mainBlog,
 .comments {
   width: 60%;
 }
 
 .sideNotes {
-  width: 25%;
+  position: relative;
+  top: 100px;
+  width: 20%;
+}
+
+.sideImageContainer img {
+  -webkit-box-shadow: -15px 15px 3px #F8FB05;
+          box-shadow: -15px 15px 3px #F8FB05;
+}
+
+.sideTextContainer {
+  padding: 28px;
+  background-color: #F8FB05;
+  -webkit-box-shadow: -15px 0 3px #F8FB05;
+          box-shadow: -15px 0 3px #F8FB05;
 }
 
 .blogContainer {
@@ -603,6 +642,10 @@ button {
   padding: 10px 0 5px;
   background-color: #065635;
   border: none;
+}
+
+.blogFieldset {
+  width: 100%;
 }
 
 .mainDiscoverContainer {

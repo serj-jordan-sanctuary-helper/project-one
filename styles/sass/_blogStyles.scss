@@ -10,11 +10,30 @@ h3 {
      text-transform: uppercase;
 }
 
+h3.rightPrice {
+     width: 70%;
+}
+
+.comments h3 {
+     margin: 50px 0;
+}
+
 p {
      font-family: $lato;
      font-size: 2rem;
      line-height: 32px;
      letter-spacing: 2px;
+}
+
+.mainTextContainer {
+     background-color: white;
+     padding: 50px 80px;
+     box-shadow: 15px 15px 3px $brightYellow;
+}
+
+.mainImageContainer img {
+     // z-index: 1;
+     box-shadow: 15px 20px 3px $brightYellow;
 }
 
 .blogText {
@@ -25,13 +44,30 @@ img {
      width: 100%;
 }
 
+.mainBlog {
+     position: relative;
+     bottom: 145px;
+}
+
 .mainBlog,
 .comments {
      width: 60%;
 }
 
 .sideNotes {
-     width: 25%;
+     position: relative;
+     top: 100px;
+     width: 20%;
+}
+
+.sideImageContainer img {
+     box-shadow: -15px 15px 3px $brightYellow;
+}
+
+.sideTextContainer {
+     padding: 28px;
+     background-color: $brightYellow;
+     box-shadow: -15px 0 3px $brightYellow;
 }
 
 .blogContainer {
@@ -51,3 +87,7 @@ img {
 }
 
 @import 'form';
+
+.blogFieldset {
+     width: 100%;
+}
