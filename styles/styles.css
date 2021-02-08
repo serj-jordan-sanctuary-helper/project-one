@@ -604,3 +604,33 @@ button {
   background-color: #065635;
   border: none;
 }
+
+.mainDiscoverContainer {
+  position: relative;
+}
+
+.indexDiscover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+img.blueCouch {
+  position: absolute;
+  width: 56%;
+  bottom: 185px;
+}
+
+.discoverContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.discoverTxtContainer h3 {
+  margin: 250px 0;
+}

@@ -63,3 +63,32 @@ h2.logo {
 @import 'contactStyles';
 
 @import 'blogStyles';
+
+.mainDiscoverContainer {
+     position: relative;
+}
+
+.indexDiscover {
+     display: flex;
+
+}
+
+img.blueCouch {
+     position: absolute;
+     width: 56%;
+     bottom: 185px;
+}
+
+.discoverContainer {
+     display: flex;
+     height: 40vh;
+     justify-content: space-between;
+}
+
+.discoverTxtContainer h3 {
+     margin: 250px 0;
+}
+
+.discoverTxtContainer {
+     // width: 50%;
+}
