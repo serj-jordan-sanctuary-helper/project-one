@@ -743,7 +743,7 @@ button a {
 }
 
 .threeImgContainer img {
-  width: calc(100%/3 - 20px);
+  width: calc(100% / 3 - 20px);
   height: auto;
 }
 
@@ -768,11 +768,7 @@ button a {
   width: 45%;
   height: 100%;
   margin-bottom: 30px;
-}
-
-.aboutSection ul li h3 {
-  display: inline;
-  font-size: 2rem;
+  padding-left: 50px;
 }
 
 .aboutSection ul li p {
@@ -782,6 +778,9 @@ button a {
 }
 
 .aboutSection ul li .fas {
+  position: relative;
+  right: 35px;
+  top: 35px;
   color: black;
   font-size: 1.5rem;
   background-color: #F8FB05;
@@ -793,7 +792,8 @@ button a {
   padding-top: 6px;
 }
 
-.groupProgramsContainer, .newLocationsContainer {
+.groupProgramsContainer,
+.newLocationsContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -802,7 +802,8 @@ button a {
           justify-content: space-between;
 }
 
-.groupProgramsContainer img, .newLocationsContainer img {
+.groupProgramsContainer img,
+.newLocationsContainer img {
   width: 50%;
   height: auto;
 }
