@@ -134,22 +134,46 @@ button a{
   justify-content: space-around;
   padding: 70px 0px;
   img{
-    width: calc(100%/3);
+    width: calc(100%/3 - 20px);
     height: auto;
-    margin: 0px 30px;
+    // padding: 0px 10px 0px 0px;
   }
 }
 
 .aboutSection{
   background-color: white;
-  margin: 70px 0px;
+  padding: 70px 0px;
   ul{
     display:flex;
-    flex-wrap: wrap;
-    li{
-      width:50%;
-      list-style: none;
-    }
+    flex-wrap: wrap; 
+    justify-content:space-between; 
+      li{
+        list-style: none;
+        width:45%;
+        height: 100%;
+        margin-bottom: 30px;
+        h3{
+          display: inline;
+          font-size: 2rem;
+        }
+        p{
+          font-family: $lato;
+          font-size: 1rem; 
+          line-height: 20px;
+        }
+        .fas{
+          color: black;
+          font-size: 1.5rem;
+          background-color: $brightYellow; 
+          background-position: center;
+          border-radius: 50%;
+          height: 30px;
+          width: 30px;
+          text-align: center;
+          padding-top: 6px;
+        }
+        
+      } 
   }
 }
 
