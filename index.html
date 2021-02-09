@@ -20,12 +20,12 @@
 </head>
 
 <body>
-  <header class="indexHeader">
+  <header class="indexHeader" id="home">
     <div class="wrapper">
       <nav class="mainNav">
         <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="#about">About</a></li>
+          <li><a href="./index.html#home">Home</a></li>
+          <li><a href="../index.html#about">About</a></li>
           <li><a href="./blog.html">Blog</a></li>
           <li><a href="./contact.html">Contact</a></li>
         </ul>
@@ -34,18 +34,18 @@
     </div>
   </header>
   
-  <section class="mainDiscoverContainer">
+  <section class="mainDiscoverContainer" id="about">
     <div class="blueCouchContainer">
-      <img src="./assets/header-box.png" class="blueCouch" alt="Two blue couches with green pillows on them">
+      <img src="./assets/header-box.png" alt="Two blue couches with green pillows on them">
     </div>
       <div class="wrapper">
         <div class="discoverContainer">
           <div class="discoverTxtContainer">
             <h3>Discovering New Materials</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi praesentium aut vero nam quisquam delectus fugiat. Culpa voluptatem debitis sit, blanditiis quisquam, perferendis doloremque dolores eligendi consequuntur recusandae velit architecto maxime officia beatae temporibus saepe earum quibusdam maiores. Quo repellat odio animi unde, magni cumque blanditiis totam eligendi officiis vero laboriosam voluptatem maiores corrupti nemo nihil delectus aspernatur eius officia minima, ut quaerat voluptates. Minus repudiandae sunt dolor amet voluptates.</p>
-              <button class="buttonOne">
-                <a href="#">Find Out More</a>
-              </button>
+            <div class="buttonOneContainer">
+              <a class="buttonOne" href="#">Find Out More</a>
+            </div>
           </div> <!-- end of discoverTxtContainer -->
           <div class="greyCouch">
             <img src="./assets/small-box.jpg" alt="Grey Couch in the living room under a paiting">
@@ -66,22 +66,22 @@
         <div class="wrapper">
           <ul>
             <li >
-              <a href=""><i class="fas fa-home"></i></a> 
+              <a href="#home"><i class="fas fa-home"></i></a> 
               <h3>Customized Offer</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio impedit aliquid ipsum consectetur beatae maxime dicta placeat, deserunt enim excepturi.</p>
             </li>
             <li>
-              <a href=""><i class="fas fa-users"></i></a> 
+              <a href="./blog.html#community"><i class="fas fa-users"></i></a> 
               <h3>Community</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui necessitatibus cum, magnam nam rem neque perferendis hic molestiae adipisci minus!</p>
             </li>
             <li>
-              <a href=""><i class="fas fa-file"></i></a> 
+              <a href="./blog.html"><i class="fas fa-file"></i></a> 
               <h3>Blog</h3>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, placeat commodi. Totam, quam aliquam. Nemo eum quibusdam nulla cupiditate non.</p>
             </li>
             <li>
-              <a href=""><i class="fas fa-phone"></i></a> 
+              <a href="./contact.html"><i class="fas fa-phone"></i></a> 
               <h3>Get In Touch</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptate sit consequuntur cum dicta id quod aliquid iste nesciunt facere?</p>
             </li>
@@ -96,27 +96,33 @@
         <img src="./assets/left-image.jpg" alt="something">
         <div class="groupProgramsText">
           <h3>Group Programs</h3>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, libero.</p>
-          <a href="" class = "buttonOne"> Read More</a>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt temporibus ipsum repellat reprehenderit ab necessitatibus officia ea id atque impedit! Harum quibusdam numquam sed quia distinctio deleniti voluptates voluptate.</p>
+          <div class="buttonOneContainer">
+            <a href="" class = "buttonOne"> Read More</a>
+          </div>
         </div>
       </div>
       <div class="newLocationsContainer">
         <img src="./assets/right-image.jpg" alt="something">
         <div class="newLocationsText">
           <h3>New Locations</h3>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, libero.</p>
-          <a href="" class = "buttonOne"> Read More</a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore voluptates ab doloribus eius illum, rem aut sunt explicabo obcaecati corrupti deserunt laudantium, repellat fuga molestias omnis optio magni necessitatibus unde?</p>
+          <div class="buttonOneContainer">
+            <a href="" class = "buttonOne"> Read More</a>
+          </div>
         </div>
       </div>
     </div>
   </section>
-  <section class="indexSearchByStyle">
+  <section class="searchStyle">
 <img src="./assets/banner-image.jpg" alt="something">
 <div class="wrapper">
 <div class ="searchText">
   <h3>Search By Style</h3>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi minima vel, laborum ratione obcaecati maxime nesciunt numquam facilis cum minus omnis, eaque labore consequuntur. Doloribus, aperiam numquam culpa laudantium dignissimos blanditiis atque asperiores, perspiciatis harum repellat suscipit possimus? Fugit magni expedita harum laborum aperiam quidem at, exercitationem architecto debitis error!</p>
-  <a href="" class="buttonOne">Find Out More</a>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi minima vel, laborum ratione obcaecati maxime nesciunt numquam facilis cum minus omnis, eaque labore consequuntur. Doloribus, aperiam numquam culpa laudantium dignissimos blanditiis atque asperiores, perspiciatis harum repellat suscipit possimus? Fugit magni expedita harum laborum aperiam quidem at, exercitationem architecto debitis error! consequuntur. Doloribus, aperiam numquam culpa laudantium dignissimos blanditiis.</p>
+  <div class="buttonOneContainer">
+    <a href="" class="buttonOne">Find Out More</a>
+  </div>
 </div>
 </div>
   </section>

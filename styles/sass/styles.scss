@@ -66,6 +66,13 @@ h3 {
   text-transform: uppercase;
 }
 
+p {
+  font-family: $lato;
+  font-size: 2rem;
+  line-height: 32px;
+  letter-spacing: 2px;
+}
+
 @import "form";
 
 @import "contactStyles";
@@ -81,11 +88,11 @@ h3 {
 .blueCouchContainer {
   position: relative;
   width: 55%;
-}
-
-.blueCouch {
-  position: absolute;
-  bottom: 65px;
+    img {
+      position: absolute;
+      bottom: 65px;
+      width: 100%;
+    }
 }
 
 .discoverContainer {
@@ -109,17 +116,17 @@ h3 {
   }
 }
 
+.buttonOneContainer {
+  margin: 50px 0 30px;
+}
+
 .buttonOne {
   font-size: 2rem;
   font-family: $kumarOne;
   padding: 18px 30px;
-  margin: 20px 0;
   background-color: $everGreen;
   text-transform: uppercase;
   border: none;
-}
-
-button a {
   color: white;
   text-decoration: none;
 }
@@ -130,13 +137,16 @@ button a {
 
 .threeImgContainer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 70px 0px;
   img {
-    width: calc(100% / 3 - 20px);
-    height: auto;
-    // padding: 0px 10px 0px 0px;
+    width: calc((100% - 40px) / 3);
+    padding-right:20px;
   }
+}
+
+.threeImgContainer img:nth-of-type(3n) {
+  padding-right: 0;
 }
 
 .aboutSection {
@@ -153,25 +163,19 @@ button a {
       height: 100%;
       margin-bottom: 30px;
       padding-left: 50px;
-
-      p {
-        font-family: $lato;
-        font-size: 1rem;
-        line-height: 20px;
-      }
+      
       .fas {
         position:relative;
-        right: 35px;
-        top: 35px;
-        color: black;
-        font-size: 1.5rem;
+        right: 53px;
+        top: 44px;
+        color: $black;
+        font-size: 2.5rem;
         background-color: $brightYellow;
-        background-position: center;
         border-radius: 50%;
-        height: 30px;
-        width: 30px;
+        height: 40px;
+        width: 40px;
         text-align: center;
-        padding-top: 6px;
+        padding-top: 7px;
       }
     }
   }
@@ -182,7 +186,63 @@ button a {
   display: flex;
   justify-content: space-between;
   img {
-    width: 50%;
+    min-width: 50%;
     height: auto;
+  }
+}
+
+.indexArticle {
+  background-color: $ice;
+}
+
+.groupProgramsContainer,
+.newLocationsContainer {
+  img {
+    position: relative;
+  }
+}
+
+.groupProgramsContainer {
+  img {
+    top: -60px;
+    left: -190px;
+    box-shadow: 20px 20px 3px $brightYellow;
+  }
+}
+
+.newLocationsContainer {
+  img {
+    bottom: -60px;
+    right: -190px;
+    box-shadow: -20px 20px 3px $brightYellow;
+  }
+}
+
+.newLocationsContainer {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.groupProgramsText,
+.newLocationsText {
+  max-width: 50%;
+  padding: 80px 40px;
+}
+
+.newLocationsText {
+  text-align: right;
+}
+
+.searchStyle {
+  img {
+    width: 100%;
+  }
+}
+
+.searchText {
+  text-align: center;
+  padding: 80px 0;
+  p {
+    text-align: left;
   }
 }
