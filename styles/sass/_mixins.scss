@@ -10,6 +10,10 @@
      background-image: url(../assets/contact-image.jpg);
 }
 
+@mixin tabletSize1100 {
+     
+}
+
 @mixin tabletSize800 {
      @media(max-width: 800px) {
           body{

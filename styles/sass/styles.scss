@@ -29,28 +29,37 @@ header {
   background-repeat: no-repeat;
 }
 
-.indexHeader {
-  @include headerImage;
-  min-height: 100vh;
-}
-
-.blogHeader {
-  @include blogHeaderImage;
-  min-height: 60vh;
-}
-
-.contactHeader {
-  @include contactHeaderImage;
-  min-height: 72vh;
-}
-
 h1 {
   font-family: $kumarOneOutline;
   font-size: 6.8rem;
   line-height: 64px;
   color: $black;
-  width: 55%;
+  width: 100%;
   text-transform: uppercase;
+}
+
+.indexHeader {
+  @include headerImage;
+  min-height: 100vh;
+  h1 {
+    width: 55%
+  }
+}
+
+.blogHeader {
+  @include blogHeaderImage;
+  min-height: 60vh;
+  h1 {
+    margin-top: 100px;
+  }
+}
+
+.contactHeader {
+  @include contactHeaderImage;
+  min-height: 72vh;
+  h1 {
+    margin-top: 130px;
+  }
 }
 
 h2.logo {
@@ -118,6 +127,10 @@ p {
   img {
     box-shadow: -15px 15px 3px $brightYellow;
   }
+}
+
+.buttonOneContainer {
+  margin-top: 60px;
 }
 
 .buttonOne {
@@ -250,5 +263,7 @@ p {
   padding: 25px;
   font-size: 3rem;
 }
+
+@include tabletSize1100;
 
 @include tabletSize800;

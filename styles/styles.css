@@ -299,9 +299,22 @@ header {
   background-repeat: no-repeat;
 }
 
+h1 {
+  font-family: "Kumar One Outline", cursive;
+  font-size: 6.8rem;
+  line-height: 64px;
+  color: #151514;
+  width: 100%;
+  text-transform: uppercase;
+}
+
 .indexHeader {
   background-image: url(../assets/header-home.jpg);
   min-height: 100vh;
+}
+
+.indexHeader h1 {
+  width: 55%;
 }
 
 .blogHeader {
@@ -309,18 +322,17 @@ header {
   min-height: 60vh;
 }
 
+.blogHeader h1 {
+  margin-top: 100px;
+}
+
 .contactHeader {
   background-image: url(../assets/contact-image.jpg);
   min-height: 72vh;
 }
 
-h1 {
-  font-family: "Kumar One Outline", cursive;
-  font-size: 6.8rem;
-  line-height: 64px;
-  color: #151514;
-  width: 55%;
-  text-transform: uppercase;
+.contactHeader h1 {
+  margin-top: 130px;
 }
 
 h2.logo {
@@ -350,17 +362,8 @@ p {
 }
 
 fieldset {
-  min-height: 525px;
-  width: 725px;
+  width: 100%;
   border: none;
-}
-
-.contactInfo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
 }
 
 .contactEmail {
@@ -422,8 +425,8 @@ textarea {
   font-family: "Kumar One", cursive;
   color: white;
   width: 100%;
-  margin-top: 50px;
-  padding: 10px 0 5px;
+  margin: 50px 0;
+  padding: 20px 0 10px;
   background-color: #065635;
   border: none;
   text-transform: uppercase;
@@ -434,13 +437,25 @@ main {
   height: auto;
 }
 
+.contactInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.fieldsetContainer {
+  width: 60%;
+}
+
 fieldset.contactFieldset {
   position: relative;
   bottom: 120px;
   background-color: white;
-  -webkit-box-shadow: 15px 20px;
-          box-shadow: 15px 20px;
-  color: #F8FB05;
+  -webkit-box-shadow: 15px 15px 3px #F8FB05;
+          box-shadow: 15px 15px 3px #F8FB05;
 }
 
 .contactDes {
@@ -461,8 +476,11 @@ fieldset.contactFieldset {
   letter-spacing: 4px;
 }
 
+.email {
+  padding-bottom: 20px;
+}
+
 .contactDes p:first-of-type {
-  padding: 15px 0px 20px;
   letter-spacing: 2px;
 }
 
@@ -552,17 +570,8 @@ section.comments {
 }
 
 fieldset {
-  min-height: 525px;
-  width: 725px;
+  width: 100%;
   border: none;
-}
-
-.contactInfo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
 }
 
 .contactEmail {
@@ -624,8 +633,8 @@ textarea {
   font-family: "Kumar One", cursive;
   color: white;
   width: 100%;
-  margin-top: 50px;
-  padding: 10px 0 5px;
+  margin: 50px 0;
+  padding: 20px 0 10px;
   background-color: #065635;
   border: none;
   text-transform: uppercase;
@@ -706,6 +715,10 @@ footer p {
 .greyCouch img {
   -webkit-box-shadow: -15px 15px 3px #F8FB05;
           box-shadow: -15px 15px 3px #F8FB05;
+}
+
+.buttonOneContainer {
+  margin-top: 60px;
 }
 
 .buttonOne {

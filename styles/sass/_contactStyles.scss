@@ -3,12 +3,20 @@ main {
   height: auto;
 }
 
+.contactInfo{
+  display: flex;
+  justify-content: space-between;
+}
+
+.fieldsetContainer {
+  width: 60%;
+}
+
 fieldset.contactFieldset {
   position: relative;
   bottom: 120px;
   background-color: white;
-  box-shadow: 15px 20px;
-  color: $brightYellow;
+  box-shadow: 15px 15px 3px $brightYellow;
 }
 
 .contactDes {
@@ -29,43 +37,10 @@ fieldset.contactFieldset {
   letter-spacing: 4px;
 }
 
-.contactDes p:first-of-type {
-  padding: 15px 0px 20px;
-  letter-spacing: 2px;
+.email {
+  padding-bottom: 20px;
 }
 
-// @media (max-width: 1300px) {
-//   .contactDes {
-//     margin-left: 10%;
-//   }
-// }
-
-// @media (max-width: 1100px) {
-//   .contactDes {
-//     margin-left: 10%;
-//   }
-// }
-
-// @media (max-width: 600px) {
-//     .wrapper{
-//       width: 100%;
-//     }
-//     h1 {
-//     text-align: center;
-//     padding-top: 15vh;
-//     }
-//     .contactNav ul {
-//       display: none;
-//     }
-//     .contactInfo{
-//       flex-wrap:wrap;
-//     }
-//     .contactDes{
-//       margin-left: 0;
-//       padding-top: 0;
-//       padding-bottom: 50px;
-//       width: 50%;
-//       text-align: center;
-//     }
-
-// }
+.contactDes p:first-of-type {
+  letter-spacing: 2px;
+}

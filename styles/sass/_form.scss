@@ -1,14 +1,7 @@
 fieldset{
-     min-height: 525px;
-     width: 725px;
+     width: 100%;
      border:none;
 }
-
-.contactInfo{
-     display: flex;
-     justify-content: space-around;
-}
-
 
 .contactEmail{
      display: flex;
@@ -29,7 +22,6 @@ input[type=text],input[type=email]{
      margin-top: 60px;
      letter-spacing: 3px;
 }
-
 
 input[type=email]{
      margin-left: 10px;
@@ -61,8 +53,8 @@ textarea{
      font-family: $kumarOne;
      color:white;
      width: 100%;
-     margin-top: 50px;
-     padding: 10px 0 5px;
+     margin: 50px 0;
+     padding: 20px 0 10px;
      background-color: $everGreen;
      border: none;
      text-transform: uppercase;
