@@ -59,32 +59,32 @@ fieldset.contactFieldset {
   h1 {
     text-align: center;
   }
-  .contactNav ul {
-    justify-content: center;
-    width: 100%;
-  }
+  // .contactNav ul {
+  //   justify-content: center;
+  //   width: 100%;
+  // }
 }
 
 @media (max-width: 600px) {
-     .wrapper{
-          width: 100%;
-     }
-     h1 {
-       text-align: center;
-       padding-top: 15vh;
-     }
-     .contactNav ul {
-       display: none;
-     }
-     .contactInfo{
-          flex-wrap:wrap;
-     }
-     .contactDes{
-          margin-left: 0;
-          padding-top: 0;
-          padding-bottom: 50px;
-          width: 50%;
-          text-align: center;
-     }
+    .wrapper{
+      width: 100%;
+    }
+    h1 {
+    text-align: center;
+    padding-top: 15vh;
+    }
+    .contactNav ul {
+      display: none;
+    }
+    .contactInfo{
+      flex-wrap:wrap;
+    }
+    .contactDes{
+      margin-left: 0;
+      padding-top: 0;
+      padding-bottom: 50px;
+      width: 50%;
+      text-align: center;
+    }
 
 }

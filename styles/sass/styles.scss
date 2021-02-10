@@ -19,9 +19,14 @@ html {
 
 @import "navigation";
 
+img {
+  width: 100%
+}
+
 header {
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .indexHeader {
@@ -36,6 +41,7 @@ header {
 
 .contactHeader {
   @include contactHeaderImage;
+  min-height: 72vh;
 }
 
 h1 {
@@ -91,7 +97,6 @@ p {
     img {
       position: absolute;
       bottom: 65px;
-      width: 100%;
     }
 }
 
@@ -180,10 +185,6 @@ p {
 .newLocationsContainer {
   display: flex;
   justify-content: space-between;
-  img {
-    min-width: 50%;
-    height: auto;
-  }
 }
 
 .indexArticle {
@@ -228,12 +229,6 @@ p {
   text-align: right;
 }
 
-.searchStyle {
-  img {
-    width: 100%;
-  }
-}
-
 .searchText {
   text-align: center;
   padding: 80px 0;
@@ -242,95 +237,18 @@ p {
   }
 }
 
-
-@media(max-width: 1300px){
-
+.burger,
+.burgerBox {
+  display: none;
+  position: absolute;
+  right: 25px;
+  cursor: pointer;
 }
 
-@media(max-width: 1100px){
-
+.burger i {
+  color: $everGreen;
+  padding: 25px;
+  font-size: 3rem;
 }
 
-@media(max-width: 800px){
-  .indexHeader h1{
-    width: 100%;
-    text-align: center;
-  }
-  .mainNav ul{
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .mainDiscoverContainer .wrapper{
-    width: 100%;
-  }
-  .greyCouch{
-    margin-right: 5%;
-  }
-
-  .greyCouch img{
-    width: 100%;
-  }
-  
-  .discoverTxtContainer h3{
-    padding: 0px 10px 0px 5px;
-  }
-
-  .buttonOneContainer{
-    display:flex;
-    justify-content: flex-end;
-  }
-
-
-  
-}
-
-@media(max-width: 600px){
-  .indexHeader h1{
-    width: 100%;
-  }
-  .mainNav ul li{
-    display: none;
-  }
-
-  .discoverTxtContainer h3{
-    padding: 0px 10px 0px 15px;
-  }
-  
-  .discoverTextContainer {
-    width:155%;
-    a{
-      display: flex;
-      justify-content: center;
-    }
-  }
-  
-  .discoverTxtContainer p{
-    width: 155%;
-    text-align: center;
-    margin-bottom: 50px;
-  }
-
-  .greyCouch{
-    height: 100%;
-  }
-
-  .buttonOneContainer{
-    width: 155%;
-    display: flex;
-    justify-content: center;
-  }
-  
-}
-
-//doesnt work? I think it only works for css only 
-
-// @include "contactMedia"
-
-
-
-
-
-// //@import works only with _name.scss 
-
-// @import "contactMedia"
+@include tabletSize800;

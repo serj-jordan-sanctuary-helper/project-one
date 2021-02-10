@@ -8,12 +8,145 @@
 
 @mixin contactHeaderImage {
      background-image: url(../assets/contact-image.jpg);
-     background-size: cover;
-     background-repeat: no-repeat;
-     min-height: 72vh;
-     min-width: 100vw;
 }
 
-@mixin contactMedia {
+@mixin tabletSize800 {
+     @media(max-width: 800px) {
+          body{
+               overflow-x: hidden;
+          }
+          .indexHeader {
+               min-height: 38vh;
+          }
+
+          .blogHeader,
+          .contactHeader {
+               min-height: 29vh;
+          }
+
+          h1 {
+               width: 20%;
+               font-size: 5.1rem;
+               padding-top: 70px;
+               margin: 0;
+          }
+
+          p {
+               font-size: 1.8rem;
+          }
+
+          h3 {
+               font-size: 2.5rem;
+               line-height: 32px;
+          }
+
+          .discoverTxtContainer h3 {
+               padding: 25px;
+               margin-bottom: 0;
+          }
+
+          .discoverTxtContainer p {
+               padding: 0 25px 35px;
+               
+          }
+
+          .navMenu {
+               padding: 15px;
+               position: absolute;
+               right: -160px;
+               top: 10vh;
+               height: 25vh;
+               background-color: rgba(224, 253, 223, 0.9);
+               border-radius: 0px 100px;
+               display: flex;
+               flex-direction: column;
+               justify-content: space-evenly;
+               align-items: center;
+               z-index: 1;
+               transition: 0.7s ease-in-out;
+          }
+          
+          input[type="checkbox"]:checked + .navMenu {
+               right: 5px;
+          }
+
+          .burger {
+               display: block;
+          }
+
+          .blueCouchContainer {
+               width: 58%;
+               img {
+                    bottom: 58px;
+               }
+          }
      
+          .mainDiscoverContainer .wrapper {
+               width: 95%;
+          }
+     
+          .greyCouch {
+               margin-right: 5%;
+          }
+          
+          .buttonOneContainer {
+               display:flex;
+               justify-content: center;
+               margin-top: 20px;
+          }
+
+          .aboutSection {
+               padding: 30px 0;
+               .wrapper {
+                    width: 95%;
+                    ul {
+                         justify-content: center;
+                    }
+               }
+          }
+
+          .aboutSection ul li .fas {
+               top: 31px;
+          }
+
+          .threeImgContainer {
+               padding: 30px 0;
+          }
+
+          .indexGallery {
+               .wrapper {
+                    width: 95%;
+               }
+          }
+
+          .groupProgramsContainer,
+          .newLocationsContainer {
+               flex-direction: column;
+               img {
+                    position: static;
+               }
+          }
+
+          .groupProgramsText,
+          .newLocationsText {
+               text-align: center;
+               max-width: 100%;
+               p {
+                    text-align: left;
+               }
+          }
+
+          .searchText {
+               padding: 30px 0;
+               h3 {
+                    margin-bottom: 20px;
+               }
+          }
+
+          .searchStyle {
+               .wrapper {
+                    width: 95%;
+               }
+          }
+     }
 }
