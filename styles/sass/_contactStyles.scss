@@ -1,44 +1,90 @@
-
-.contactHeader h1{
-     margin-top: 60px;
-     font-size: 6rem;
-     font-weight: lighter;
-     width: auto;
+.contactHeader h1 {
+  margin-top: 60px;
+  font-size: 6rem;
+  font-weight: lighter;
+  width: auto;
 }
-main{
-     background-color: $ice;
-     height: auto;
-}
-
-fieldset.contactFieldset{
-     position:relative;
-     bottom: 120px;
-     background-color: white;
-     box-shadow: 15px 20px;
-     color: $brightYellow;
+main {
+  background-color: $ice;
+  height: auto;
 }
 
-.contactDes{
-     width: 23%;
-     padding-top: 140px;
+fieldset.contactFieldset {
+  position: relative;
+  bottom: 120px;
+  background-color: white;
+  box-shadow: 15px 20px;
+  color: $brightYellow;
 }
 
-.contactDes i{
-     font-size: 2.3rem;
-     color: $everGreen;
-     letter-spacing: 10px;
+.contactDes {
+  width: 23%;
+  padding-top: 140px;
 }
 
-.contactDes p{
-     font-family: $lato;
-     font-size: 1.5rem;
-     line-height: 22px;
-     letter-spacing: 4px;
+.contactDes i {
+  font-size: 2.3rem;
+  color: $everGreen;
+  letter-spacing: 10px;
 }
 
-.contactDes p:first-of-type{
-     padding: 15px 0px 20px;
-     letter-spacing: 2px;
+.contactDes p {
+  font-family: $lato;
+  font-size: 1.5rem;
+  line-height: 22px;
+  letter-spacing: 4px;
 }
 
+.contactDes p:first-of-type {
+  padding: 15px 0px 20px;
+  letter-spacing: 2px;
+}
 
+@media (max-width: 1300px) {
+  .contactDes {
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .contactDes {
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 800px) {
+  .logo {
+    display: none;
+  }
+  h1 {
+    text-align: center;
+  }
+  .contactNav ul {
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+     .wrapper{
+          width: 100%;
+     }
+     h1 {
+       text-align: center;
+       padding-top: 15vh;
+     }
+     .contactNav ul {
+       display: none;
+     }
+     .contactInfo{
+          flex-wrap:wrap;
+     }
+     .contactDes{
+          margin-left: 0;
+          padding-top: 0;
+          padding-bottom: 50px;
+          width: 50%;
+          text-align: center;
+     }
+
+}

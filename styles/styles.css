@@ -309,7 +309,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 72vh;
-  min-width: 100vh;
+  min-width: 100vw;
 }
 
 h1 {
@@ -469,6 +469,57 @@ fieldset.contactFieldset {
 .contactDes p:first-of-type {
   padding: 15px 0px 20px;
   letter-spacing: 2px;
+}
+
+@media (max-width: 1300px) {
+  .contactDes {
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .contactDes {
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 800px) {
+  .logo {
+    display: none;
+  }
+  h1 {
+    text-align: center;
+  }
+  .contactNav ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    width: 100%;
+  }
+  h1 {
+    text-align: center;
+    padding-top: 15vh;
+  }
+  .contactNav ul {
+    display: none;
+  }
+  .contactInfo {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .contactDes {
+    margin-left: 0;
+    padding-top: 0;
+    padding-bottom: 50px;
+    width: 50%;
+    text-align: center;
+  }
 }
 
 main {
@@ -699,7 +750,6 @@ footer p {
 
 .discoverTxtContainer {
   width: 65%;
-  padding-right: 100px;
 }
 
 .discoverTxtContainer h3 {
@@ -713,10 +763,6 @@ footer p {
 .greyCouch img {
   -webkit-box-shadow: -15px 15px 3px #F8FB05;
           box-shadow: -15px 15px 3px #F8FB05;
-}
-
-.buttonOneContainer {
-  margin: 50px 0 30px;
 }
 
 .buttonOne {
@@ -861,4 +907,77 @@ footer p {
 
 .searchText p {
   text-align: left;
+}
+
+@media (max-width: 800px) {
+  .indexHeader h1 {
+    width: 100%;
+    text-align: center;
+  }
+  .mainNav ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+  .mainDiscoverContainer .wrapper {
+    width: 100%;
+  }
+  .greyCouch {
+    margin-right: 5%;
+  }
+  .greyCouch img {
+    width: 100%;
+  }
+  .discoverTxtContainer h3 {
+    padding: 0px 10px 0px 5px;
+  }
+  .buttonOneContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+}
+
+@media (max-width: 600px) {
+  .indexHeader h1 {
+    width: 100%;
+  }
+  .mainNav ul li {
+    display: none;
+  }
+  .discoverTxtContainer h3 {
+    padding: 0px 10px 0px 15px;
+  }
+  .discoverTextContainer {
+    width: 155%;
+  }
+  .discoverTextContainer a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .discoverTxtContainer p {
+    width: 155%;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .greyCouch {
+    height: 100%;
+  }
+  .buttonOneContainer {
+    width: 155%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
