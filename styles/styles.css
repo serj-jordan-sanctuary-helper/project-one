@@ -1073,6 +1073,7 @@ footer p {
   }
   .threeImgContainer img {
     width: 50%;
+    max-height: 100%;
     padding: 5px;
   }
   .groupProgramsContainer,
