@@ -15,7 +15,11 @@
           .wrapper {
                width: 90%;
           }
-     
+
+          .indexHeader {
+               min-height: 555px;
+          }
+          
           .newLocationsContainer img {
           box-shadow: -15px 15px 3px $brightYellow;
           }
@@ -63,7 +67,7 @@
 
           .blogHeader,
           .contactHeader {
-               min-height: 50vh;
+               min-height: 461px;
           }
      }
 }
@@ -79,12 +83,12 @@
           }
 
           .indexHeader {
-               min-height: 38vh;
+               min-height: 350px;
           }
 
           .blogHeader,
           .contactHeader {
-               min-height: 29vh;
+               min-height: 267px;
                h1 {
                     padding-top: 38px;
                     margin: 0;
@@ -127,8 +131,8 @@
                padding: 15px;
                position: absolute;
                right: -170px;
-               top: 10vh;
-               height: 25vh;
+               top: 92px;
+               height: 230px;
                background-color: rgba(224, 253, 223, 0.9);
                border-radius: 0px 100px;
                box-shadow: -1px 1px 10px;
@@ -269,7 +273,7 @@
 @mixin phoneSize600 {
      @media (max-width: 600px) {
           .mainDiscoverContainer {
-               margin-top: 14vh;
+               margin-top: 129px;
           }
 
           .discoverContainer {

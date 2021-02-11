@@ -310,7 +310,7 @@ h1 {
 
 .indexHeader {
   background-image: url(../assets/header-home.jpg);
-  min-height: 100vh;
+  min-height: 960px;
 }
 
 .indexHeader h1 {
@@ -319,7 +319,7 @@ h1 {
 
 .blogHeader {
   background-image: url(../assets/blog-image.jpg);
-  min-height: 60vh;
+  min-height: 553px;
 }
 
 .blogHeader h1 {
@@ -328,7 +328,7 @@ h1 {
 
 .contactHeader {
   background-image: url(../assets/contact-image.jpg);
-  min-height: 72vh;
+  min-height: 664px;
 }
 
 .contactHeader h1 {
@@ -689,7 +689,7 @@ footer p {
 }
 
 .mainDiscoverContainer {
-  margin-top: 25vh;
+  margin-top: 245px;
 }
 
 .blueCouchContainer {
@@ -902,6 +902,9 @@ footer p {
   .wrapper {
     width: 90%;
   }
+  .indexHeader {
+    min-height: 555px;
+  }
   .newLocationsContainer img {
     -webkit-box-shadow: -15px 15px 3px #F8FB05;
             box-shadow: -15px 15px 3px #F8FB05;
@@ -941,7 +944,7 @@ footer p {
   }
   .blogHeader,
   .contactHeader {
-    min-height: 50vh;
+    min-height: 461px;
   }
 }
 
@@ -953,11 +956,11 @@ footer p {
     width: 95%;
   }
   .indexHeader {
-    min-height: 38vh;
+    min-height: 350px;
   }
   .blogHeader,
   .contactHeader {
-    min-height: 29vh;
+    min-height: 267px;
   }
   .blogHeader h1,
   .contactHeader h1 {
@@ -993,8 +996,8 @@ footer p {
     padding: 15px;
     position: absolute;
     right: -170px;
-    top: 10vh;
-    height: 25vh;
+    top: 92px;
+    height: 230px;
     background-color: rgba(224, 253, 223, 0.9);
     border-radius: 0px 100px;
     -webkit-box-shadow: -1px 1px 10px;
@@ -1143,7 +1146,7 @@ footer p {
 
 @media (max-width: 600px) {
   .mainDiscoverContainer {
-    margin-top: 14vh;
+    margin-top: 129px;
   }
   .discoverContainer {
     display: -webkit-box;
