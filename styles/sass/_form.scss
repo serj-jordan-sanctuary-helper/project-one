@@ -59,3 +59,8 @@ textarea{
      border: none;
      text-transform: uppercase;
 }
+
+.messageSubmit button:hover,
+.messageSubmit button:focus{
+     color: $brightYellow;
+}

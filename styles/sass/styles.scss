@@ -144,6 +144,11 @@ p {
   text-decoration: none;
 }
 
+.buttonOne:hover,
+.buttonOne:focus{
+  color: $brightYellow;
+}
+
 .indexGallery {
   background-color: $ice;
 }
@@ -176,7 +181,17 @@ p {
       height: 100%;
       margin-bottom: 30px;
       padding-left: 50px;
-      
+
+      a i:hover{
+        background-color: $everGreen;
+        border: 1px solid black;
+        color: white;
+      }
+      a i:focus{
+        background-color: $everGreen;
+        border: 1px solid black;
+        color: white;
+      }
       .fas {
         position:relative;
         right: 53px;
@@ -189,10 +204,12 @@ p {
         width: 40px;
         text-align: center;
         padding-top: 7px;
+        
       }
     }
   }
 }
+
 
 .groupProgramsContainer,
 .newLocationsContainer {

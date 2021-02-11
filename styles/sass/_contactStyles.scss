@@ -22,25 +22,27 @@ fieldset.contactFieldset {
 .contactDes {
   width: 23%;
   padding-top: 140px;
+  i {
+    font-size: 2.3rem;
+    color: $everGreen;
+    letter-spacing: 10px;
+  }
+  p {
+    font-family: $lato;
+    font-size: 1.5rem;
+    line-height: 22px;
+    letter-spacing: 4px;
+  }
 }
 
-.contactDes i {
-  font-size: 2.3rem;
-  color: $everGreen;
-  letter-spacing: 10px;
-}
-
-.contactDes p {
-  font-family: $lato;
-  font-size: 1.5rem;
-  line-height: 22px;
-  letter-spacing: 4px;
+.contactDes i:hover{
+  color: black;
+  
 }
 
 .email {
   padding-bottom: 20px;
+  letter-spacing: 2.5px;
+  margin-top: 15px;
 }
 
-.contactDes p:first-of-type {
-  letter-spacing: 2px;
-}

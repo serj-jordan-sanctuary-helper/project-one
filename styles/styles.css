@@ -432,6 +432,11 @@ textarea {
   text-transform: uppercase;
 }
 
+.messageSubmit button:hover,
+.messageSubmit button:focus {
+  color: #F8FB05;
+}
+
 main {
   background-color: #E0FDDF;
   height: auto;
@@ -476,12 +481,14 @@ fieldset.contactFieldset {
   letter-spacing: 4px;
 }
 
-.email {
-  padding-bottom: 20px;
+.contactDes i:hover {
+  color: black;
 }
 
-.contactDes p:first-of-type {
-  letter-spacing: 2px;
+.email {
+  padding-bottom: 20px;
+  letter-spacing: 2.5px;
+  margin-top: 15px;
 }
 
 main {
@@ -640,6 +647,11 @@ textarea {
   text-transform: uppercase;
 }
 
+.messageSubmit button:hover,
+.messageSubmit button:focus {
+  color: #F8FB05;
+}
+
 .blogFieldset {
   width: 100%;
 }
@@ -732,6 +744,11 @@ footer p {
   text-decoration: none;
 }
 
+.buttonOne:hover,
+.buttonOne:focus {
+  color: #F8FB05;
+}
+
 .indexGallery {
   background-color: #E0FDDF;
 }
@@ -777,6 +794,18 @@ footer p {
   height: 100%;
   margin-bottom: 30px;
   padding-left: 50px;
+}
+
+.aboutSection ul li a i:hover {
+  background-color: #065635;
+  border: 1px solid black;
+  color: white;
+}
+
+.aboutSection ul li a i:focus {
+  background-color: #065635;
+  border: 1px solid black;
+  color: white;
 }
 
 .aboutSection ul li .fas {
