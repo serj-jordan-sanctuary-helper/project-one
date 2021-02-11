@@ -1245,3 +1245,25 @@ footer p {
     width: 100%;
   }
 }
+
+@media (max-width: 500px) {
+  .contactDes {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0;
+  }
+  .contactDes .socialContainer,
+  .contactDes .addressContainer {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .contactDes a {
+    padding: 0 20px;
+  }
+  .contactDes a i {
+    font-size: 3rem;
+  }
+}

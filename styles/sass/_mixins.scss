@@ -353,7 +353,29 @@
           .commentImg {
                width: 100%;
           }
+     }
+}
 
+@mixin phoneSize500 {
+     @media (max-width: 500px){
+          .contactDes {
+               flex-direction: column;
+               padding: 0;
+               .socialContainer,
+               .addressContainer {
+                    width: 100%;
+                    margin-bottom: 20px;
+                    text-align: center;
+               }
+          }
 
+          .contactDes {
+               a {
+                    padding: 0 20px;
+                    i {
+                         font-size: 3rem;
+                    }
+               }
+          }
      }
 }
