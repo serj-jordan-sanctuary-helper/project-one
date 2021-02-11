@@ -283,6 +283,8 @@ nav ul li a {
   font-family: "Lato", sans-serif;
   color: #151514;
   text-decoration: none;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 nav ul li a:hover, nav ul li a:focus {
@@ -430,6 +432,8 @@ textarea {
   background-color: #065635;
   border: none;
   text-transform: uppercase;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .messageSubmit button:hover,
@@ -472,6 +476,8 @@ fieldset.contactFieldset {
   font-size: 2.3rem;
   color: #065635;
   letter-spacing: 10px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .contactDes p {
@@ -481,8 +487,9 @@ fieldset.contactFieldset {
   letter-spacing: 4px;
 }
 
-.contactDes i:hover {
-  color: black;
+.contactDes i:hover,
+.contactDes i:focus {
+  color: #F8FB05;
 }
 
 .email {
@@ -645,6 +652,8 @@ textarea {
   background-color: #065635;
   border: none;
   text-transform: uppercase;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .messageSubmit button:hover,
@@ -742,6 +751,8 @@ footer p {
   border: none;
   color: white;
   text-decoration: none;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .buttonOne:hover,
@@ -893,9 +904,18 @@ footer p {
 }
 
 .burger i {
+  -webkit-transition: 0.7s ease-in-out;
+  transition: 0.7s ease-in-out;
+}
+
+.burger i {
   color: #065635;
   padding: 25px;
   font-size: 3rem;
+}
+
+.burger i:hover {
+  color: #F8FB05;
 }
 
 @media (max-width: 1100px) {

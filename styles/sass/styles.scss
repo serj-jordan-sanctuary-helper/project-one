@@ -142,6 +142,7 @@ p {
   border: none;
   color: white;
   text-decoration: none;
+  transition: 0.3s ease-in-out;
 }
 
 .buttonOne:hover,
@@ -274,11 +275,17 @@ p {
   right: 25px;
   cursor: pointer;
 }
+.burger i {
+  transition: 0.7s ease-in-out;
+}
 
 .burger i {
   color: $everGreen;
   padding: 25px;
   font-size: 3rem;
+  &:hover {
+    color: $brightYellow;
+  }
 }
 
 @include tabletSize1100;

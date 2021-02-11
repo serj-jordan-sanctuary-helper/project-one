@@ -26,6 +26,7 @@ fieldset.contactFieldset {
     font-size: 2.3rem;
     color: $everGreen;
     letter-spacing: 10px;
+    transition: 0.3s ease-in-out;
   }
   p {
     font-family: $lato;
@@ -35,8 +36,9 @@ fieldset.contactFieldset {
   }
 }
 
-.contactDes i:hover{
-  color: black;
+.contactDes i:hover,
+.contactDes i:focus {
+  color: $brightYellow;
   
 }
 
